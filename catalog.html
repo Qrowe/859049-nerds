@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Дизайн-студия «Нёрдс»</title>
+	</head>
+	<body>
+		<header class="main-header">
+			<nav class="main-navigation">
+				<a class="main-header-logo" href="#">
+					<img src="img/index-logo.svg" width="160" height="50" alt="Лого «Нёрдс»">
+				</a>
+				<ul class="site-navigation">
+					<li><a href="studio.html">Студия</a></li>
+					<li><a href="clients.html">Клиенты</a></li>
+					<li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
+					<li><a href="contacts.htmls">Контакты</a></li>
+				</ul>
+				<ul class="check-out-navigation">
+					<li class="check-out">Корзина</li>
+				</ul>
+			</nav>	
+		</header>
+		<main class="container">
+			<h1 class="page-title">Магазин готовых шаблонов</h1>
+			<section class="filters">
+				<h2 class="visually-hidden">Фильтры товаров</h2>
+			<!-- Здесь будут фильтры -->
+		</section>
+		<section class="catalog">
+			<h2 class="visually-hidden">Список готовых шаблонов</h2>
+			<ul class="catalog-list">
+				<li class="catalog-item-selected">
+					<h3 class="visually-hidden">Sedona</h3>
+					<p>
+						<img src="Sedona.jpg" width="220" height="165" alt="Sedona-Cайт для туристов">
+					</p>
+					<div class="hover">
+						<!-- div для всплывающего окна для начала подойдет? -->
+						<b>Sedona</b>
+						<p>Информационный сайт<br> для туристов</p>
+						<a class="button" href="#">9 900 руб.</a>
+					</div>
+				</li>
+				<li class="catalog-item">
+					<h3 class="visually-hidden">Pink App</h3>
+					<p>
+						<img src="Pink-App.jpg" width="220" height="165" alt="Pink App">
+					</p>
+					<div class="hover">
+						<b>Pink App</b>
+						<p>Продуктовый лендинг<br>
+						приложения для iOS и Android</p>
+						<a class="button" href="#">9 900 руб.</a>
+					</div>
+				</li>
+				<li class="catalog-item">
+					<h3 class="visually-hidden">Барбершоп Бородинский</h3>
+					<p>
+						<img src="Borodinski-barbershop.jpg" width="220" height="165" alt="Барбершоп «Бородинский»">
+					</p>
+					<div class="hover">
+						<b>Barbershop</b>
+						<p>Сайт салона красоты<br>
+						Для мужчин, да.</p>
+						<a class="button" href="#">9 900 руб.</a>
+					</div>
+				</li>
+				<li class="catalog-item">
+					<h3 class="visually-hidden">Mishka</h3>
+					<p>
+						<img src="Mishka.jpg" width="220" height="165" alt="Mishka-игрушки">
+					</p>
+					<div class="hover">
+						<b>Mishka</b>
+						<p>Интернет-магазин<br>
+						вязаных игрушек</p>
+						<a class="button" href="#">9 900 руб.</a>
+					</div>
+				</li>
+				<li class="catalog-item">
+					<h3 class="visually-hidden">A Plus</h3>
+					<p>
+						<img src="A-Plus.jpg" width="220" height="165" alt="A plus-курсы квалификации">
+					</p>
+					<div class="hover">
+						<b>A plus</b>
+						<p>Лендинг курсов повышения<br>
+						квалификации</p>
+						<a class="button" href="#">9 900 руб.</a>
+					</div>
+				</li>
+				<li class="catalog-item">
+					<h3 class="visually-hidden">Кваст</h3>
+					<p>
+						<img src="A-Plus.jpg" width="220" height="165" alt="Кваст-крафтовый квас">
+					</p>
+					<div class="hover">
+						<b>Кваст</b>
+						<p>Промо-сайт производителя<br>
+						крафтового кваса</p>
+						<a class="button" href="#">9 900 руб.</a>
+					</div>
+				</li>
+			</ul>
+			<ul class="pagination-list">
+          		<li class="pagination-item">1</li>
+          		<li class="pagination-item">2</li>
+          		<li class="pagination-item">3</li>
+          		<li class="pagination-item-next">Следующая</li>
+        	</ul>
+		</main>
+		<footer class="main-footer">
+			<section class="contacts">
+				<p><h5>Nerds design studio</h5></p>
+			<p>
+				191186, Санкт-Петербург,<br>
+				ул. Б. Конюшенная, д. 19/8
+			</p>
+			<p>
+				тел. +7(812)275-75-75
+			</p>	
+			<span class="button contact-button contact-button-form">Напишите нам</span>
+				<span class=contacts-map><a href="map.html">
+				<!--Интерактивная карта с адресом дизайн-студии «Нёрдс»(либо через тег <img> или в background в CSS)--></a>
+				</span>
+			</section>
+			<div class="footer-social">
+				<ul>
+					<li><a class="social-button" href="#">Вконтакте</a></li>
+					<li><a class="social-button" href="#">Фейсбук</a></li>
+					<li><a class="social-button" href="#">Инстаграм</a></li>
+				</ul>
+			</div>
+			<p><b>Давайте дружить, это выгодно!</b><br>
+			Скидка 10% для друзей из социальных сетей.</p>
+		</footer>
+		<section class="modal modal-login">
+			<h2>Напишите нам</h2>
+			<ul class="write-us-form">
+				<li>Ваше имя:<br>
+			 	<!--Форма для ввода ФИО --></li>
+			 	<li>Ваш e-mail:<br>
+			 	<!-- Форма для ввода e-mail --></li>
+			 	<li>Текст письма<br>
+			 	<!-- Форма для ввода e-mail --></li>
+			</ul>
+			<span class="button contact-button contact-button-form">Напишите нам<span>
+		</section>
+	</body>
+</html>
