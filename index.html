@@ -8,7 +8,7 @@
 		<header class="main-header">
 			<nav class="main-navigation">
 				<a class="main-header-logo" href="#">
-					<img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип студии «Нёрдс»">
+					<img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип студии «Нёрдс»" aria-label="Логотип студии «Нёрдс»">
 				</a>
 				<ul class="site-navigation">
 					<li><a href="index.html">Студия</a></li>
@@ -17,7 +17,7 @@
 					<li><a href="contacts.htmls">Контакты</a></li>
 				</ul>
 				<span class="check-out-navigation">
-					<a href="check-out.html"><img src="img/cart-icon.svg">Корзина</li>
+					<a href="check-out.html"><img src="img/cart-icon.svg" aria-label="Ваша корзина">Корзина</a></li>
 				</span>
 			</nav>	
 		</header>
@@ -105,77 +105,61 @@
 				<h2 class="visually-hidden">Наши партнеры</h2>
 				<ul class="partners-list">
 					<li class="partner-logo">
-						<h3 class="visually-hidden">
-							<a href="htmlacademy.ru/intensive/htmlcss"> 
-								HTML Academy
-							</a>
-						</h3>
-						<p>
-							<a href="https://htmlacademy.ru/intensive/htmlcss">
-							<img src="img/logo-1.png" alt="НTML Academy">
-							</a>
-						</p>
+						<a href="https://htmlacademy.ru/intensive/htmlcss">
+							<h3 class="visually-hidden">HTML Academy</h3>
+							<p>
+								<img src="img/logo-1.png" alt="НTML Academy">
+							</p>
+						</a>
 					</li>
 					<li class="partner-logo">
-						<h3 class="visually-hidden">
-							<a href="#"> 
-								Barbershop Borodinski
-							</a>
-						</h3>
-						<p>
-							<a href="#">
+						<a href="#" tabindex="0"> 
+							<h3 class="visually-hidden">Barbershop Borodinski</h3>
+							<p>
 								<img src="img/logo-2.png" alt="Barbershop Borodinski">
-							</a>
-						</p>
+							</p>
+						</a>
 					</li>
 					<li class="partner-logo">
-						<h3 class="visually-hidden">
-							<a href="#"> 
-								Pink
-							</a>
-						</h3>
-						<p>
-							<a href="#">
+						<a href="#"> 
+							<h3 class="visually-hidden">Pink</h3>
+							<p>
 								<img src="img/logo-3.png" alt="Pink">
-							</a>
-						</p>
+							</p>
+						</a>
 					</li>
 					<li class="partner-logo">
-						<h3 class="visually-hidden">
-							<a href="#"> 
-								Mishka
-							</a>
-						</h3>
-						<p>
-							<a href="#">
+						<a href="#"> 
+							<h3 class="visually-hidden">Mishka</h3>
+							<p>
 								<img src="img/logo-4.png" alt="Mishka">
-							</a>
-						</p>
+							</p>
+						</a>
 					</li>
 				</ul>
 			</section>
 		</main>
 		<footer class="main-footer">
 			<section class="contacts">
-				<p><h5>nerds design studio</h5></p>
-				<p>
-					191186, Санкт-Петербург,<br>
-					ул. Б. Конюшенная, д. 19/8
-				</p>
-				<p>
-					тел. +7(812)275-75-75
-				</p>	
-				<span class="button contact-button contact-button-form">Напишите нам</span>
-					<div class=contacts-map><a href="map.html"><img src="img/map-layer.png">
+				<h5>Nerds design studio</h5>
+			<p>
+				191186, Санкт-Петербург,<br>
+				ул. Б. Конюшенная, д. 19/8
+			</p>
+			<p>
+				тел. +7(812)275-75-75
+			</p>	
+			<button class="button contact-button contact-button-form" type="button" aria-label="Напишите нам" tabindex="0">Напишите нам</button>
+				<div class=contacts-map><a href="map.html"><img src="img/map-layer.png">
 						<img src="img/map-marker.png">
-					<!--Интерактивная карта с адресом дизайн-студии «Нёрдс»(либо через тег <img> или в background в CSS)--></a>
-					</div>
+				<!--Интерактивная карта с адресом дизайн-студии «Нёрдс»(либо через тег <img> или в background в CSS)--></a>
+				</div>
 			</section>
 			<div class="footer-social">
 				<ul>
-					<li><a class="social-button" href="#">Вконтакте</a></li>
-					<li><a class="social-button" href="#">Фейсбук</a></li>
-					<li><a class="social-button" href="#">Инстаграм</a></li>
+					<li><a class="social-button" href="#" aria-label="Мы Вконтакте" tabindex="0">Вконтакте</a></li>
+					<li><a class="social-button" href="#" aria-label="Мы в Фейсбуке" tabindex="0">Фейсбук</a></li>
+					<li><a class="social-button" href="#" aria-label="Мы в Инстаграме" tabindex="0">Инстаграм</a></li>
 				</ul>
 			</div>
 			<p><b>Давайте дружить, это выгодно!</b><br>
@@ -183,15 +167,20 @@
 		</footer>
 		<section class="modal modal-login">
 			<h2>Напишите нам</h2>
-			<ul class="write-us-form">
-				<li>Ваше имя:<br>
-			 	<!--Форма для ввода ФИО --></li>
-			 	<li>Ваш e-mail:<br>
-			 	<!-- Форма для ввода e-mail --></li>
-			 	<li>Текст письма<br>
-			 	<!-- Форма для ввода e-mail --></li>
-			</ul>
-			<span class="button contact-button contact-button-form">Напишите нам</span>
+			<form class="write-us-form" action="https://echo.htmlacademy.ru" method="post">
+				<p class="write-us-form-item"><label for="write-us-form-name">Ваше имя:</label><br>
+					<input type="text" name="name" id="write-us-form-name" value="" placeholder="Имя Фамилия" aria-label="Введите ваше имя и фамилию" tabindex="0">
+				</p>
+				<p class="write-us-form-item"><label for="write-us-form-mail">Ваш e-mail:</label><br>
+					<input type="text" name="e-mail" id="write-us-form-mail" value="" placeholder="email@example.com" aria-label="Введите ваш e-mail" tabindex="0">
+				</p>
+				<p class="write-us-form-item"><label for="write-us-form-text">Текст письма:</label><br>
+					<textarea name="text" id="write-us-form-text" rows="3" cols="" aria-label="Введите текст письма" tabindex="0">В свободной форме
+					</textarea>
+				</p>
+				<button class="button" type="submit" aria-label="Отправить сообщение" tabindex="0">Отправить</button>
+				<button class="modal-close" type="button" tabindex="0">Закрыть</button>
+			</form>
 		</section>
 	</body>
 </html>
