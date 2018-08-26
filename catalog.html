@@ -18,7 +18,7 @@
 					<li><a href="contacts.html">Контакты</a></li>
 				</ul>
 				<span class="check-out-navigation">
-					<a href="check-out.html"><img src="img/cart-icon.svg" aria-label="Ваша корзина">Корзина</a>
+					<a href="check-out.html"> <img src="img/cart-icon.svg" alt="Ваша корзина">Корзина</a>
 				</span>
 			</nav>	
 		</header>
@@ -29,8 +29,8 @@
 			<form class="filter" method="get" action="https://echo.htmlacademy.ru" oninput="min-price.value=price.value">
 				<fieldset><legend>Стоимость:</legend>
 				<!-- По идее здесь должно быть 2 ползунка, но через type="range" их не реализовать -->
-					<input type="range" name="Price" id="item-price" min="0" max="20000" value="0"><label for="item-price"></label>
-					<p>От<output name="min-price"></output> до <output name="max-price"></output></p>
+					<input type="range" name="Price" id="item-price" min="0" max="15000" value="0"><label for="item-price"></label>
+					<p>От 0<output name="min-price"></output> до 15 000 <output name="max-price"></output></p>
 				</fieldset>
 				<fieldset>
 					<legend>Сетка:</legend>
@@ -109,7 +109,7 @@
 						<div class="hover">
 							<b>Sedona</b>
 							<p>Информационный сайт<br> для туристов</p>
-							<a class="button" href="#"aria-label="Купить за 9900руб." tabindex="0">9 900 руб.</a>
+							<a class="button" href="#" aria-label="Купить за 9900руб." tabindex="0">9 900 руб.</a>
 						</div>
 					</li>
 					<li class="catalog-item">
@@ -133,7 +133,7 @@
 							<b>Barbershop</b>
 							<p>Сайт салона красоты<br>
 							Для мужчин, да.</p>
-							<a class="button" href="#"aria-label="Купить за 9900руб." tabindex="0">9 900 руб.</a>
+							<a class="button" href="#" aria-label="Купить за 9900руб." tabindex="0">9 900 руб.</a>
 						</div>
 					</li>
 					<li class="catalog-item">
@@ -145,19 +145,19 @@
 							<b>Mishka</b>
 							<p>Интернет-магазин<br>
 							вязаных игрушек</p>
-							<a class="button" href="#"aria-label="Купить за 9900руб." tabindex="0">9 900 руб.</a>
+							<a class="button" href="#" aria-label="Купить за 9900руб." tabindex="0">9 900 руб.</a>
 						</div>
 					</li>
 					<li class="catalog-item">
 						<h3 class="visually-hidden">A Plus</h3>
 						<p>
-							<img src="img/img-aplus.jpg" width="360" height="576" alt="A plus-курсы квалификации">
+							<img src="img/img-aplus.jpg" width="360" height="576"  alt="A plus-курсы квалификации">
 						</p>
 						<div class="hover">
 							<b>A plus</b>
 							<p>Лендинг курсов повышения<br>
 							квалификации</p>
-							<a class="button" href="#"aria-label="Купить за 9900руб." tabindex="0">9 900 руб.</a>
+							<a class="button" href="#" aria-label="Купить за 9900руб." tabindex="0">9 900 руб.</a>
 						</div>
 					</li>
 					<li class="catalog-item">
@@ -169,7 +169,7 @@
 							<b>Кваст</b>
 							<p>Промо-сайт производителя<br>
 							крафтового кваса</p>
-							<a class="button" href="#"aria-label="Купить за 9900руб." tabindex="0">9 900 руб.</a>
+							<a class="button" href="#" aria-label="Купить за 9900руб." tabindex="0">9 900 руб.</a>
 						</div>
 					</li>
 				</ul>
@@ -200,8 +200,8 @@
 				тел. +7(812)275-75-75
 			</p>	
 			<button class="button contact-button contact-button-form" type="button" aria-label="Напишите нам" tabindex="0">Напишите нам</button>
-				<div class=contacts-map><a href="map.html"><img src="img/map-layer.png">
-						<img src="img/map-marker.png">
+				<div class=contacts-map><a href="map.html"><img src="img/map-layer.png" alt="Как к нам добраться">
+						<img src="img/map-marker.png" alt="Мы находимся здесь">
 				<!--Интерактивная карта с адресом дизайн-студии «Нёрдс»(либо через тег <img> или в background в CSS)--></a>
 				</div>
 			</section>
@@ -225,7 +225,7 @@
 					<input type="text" name="e-mail" id="write-us-form-mail" value="" placeholder="email@example.com" aria-label="Введите ваш e-mail" tabindex="0">
 				</p>
 				<p class="write-us-form-item"><label for="write-us-form-text">Текст письма:</label><br>
-					<textarea name="text" id="write-us-form-text" rows="3" cols="" aria-label="Введите текст письма" tabindex="0">В свободной форме
+					<textarea name="text" id="write-us-form-text" rows="3" aria-label="Введите текст письма" tabindex="0">В свободной форме
 					</textarea>
 				</p>
 				<button class="button" type="submit" aria-label="Отправить сообщение" tabindex="0">Отправить</button>
