@@ -1,0 +1,396 @@
+body {
+	margin:;
+	padding:;
+
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+
+	background-color: #ffffff;
+  	background-position: top center;
+  	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+}
+
+.button{
+	font: inherit;
+
+	text-align: center;
+	color: #ffffff;
+	vertical-align: middle;
+	text-transform: uppercase;
+
+	background-color: #fb565a;
+	border: none;
+	margin-left: 10.15px;
+	margin-right: 10.15px;
+	border-radius: 1px;
+
+}
+
+.filter-button{
+	font: inherit;
+
+	text-align: center;
+	color: #000000;
+	vertical-align: middle;
+	text-transform: uppercase;
+
+	background-color: #eeeeee;
+	border: none;
+	margin-left: 10.15px;
+	margin-right: 10.15px;
+	border-radius: 1px;
+}
+/*не могу поменять цвет другим кнопкам*/
+ .app-button{ 
+	font: inherit;
+
+	text-align: center;
+	color: #ffffff;
+	vertical-align: middle;
+	text-transform: uppercase;
+
+	background-color: #00ca74;
+	border: none;
+	margin-left: 10.15px;
+	margin-right: 10.15px;
+	border-radius: 1px;
+}
+
+.presentation-button{
+	font: inherit;
+
+	text-align: center;
+	color: #ffffff;
+	vertical-align: middle;
+	text-transform: uppercase;
+
+	background-color: #efc84a;
+	border: none;
+	margin-left: 10.15px;
+	margin-right: 10.15px;
+	border-radius: 1px;
+}
+
+.button:hover,
+.button:focus{
+	background-color: #e74246;
+}
+
+.button:active{
+	/*а можно просто использовать свойство color:#e37376*/
+	opacity: 30%;
+	color: #e37376;
+
+	background-color: #d7373b;
+}
+
+.main-navigation {
+	font-size: 16px;
+	line-height: 30px;
+	color:#000000;
+
+	background-color: #eeeeee;
+}
+
+.site-navigation{
+	list-style: none;
+}
+
+.site-navigation a,
+.check-out-navigation a {
+	color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.check-out-navigation a:hover,
+.check-out-navigation a:focus{
+	color: #fb565a;
+}
+
+.slide-features-list {
+	list-style: none;
+}
+
+.slide-feature-item {
+	text-align: left;
+}
+
+.slide-feature-item h2 {
+	font-size: 55px;
+ 	line-height: 55px;
+}
+
+.index-columns {
+	color:#000000;
+
+	background-color: #eeeeee;
+}
+
+.index-columns h3{
+	font-size: 55px;
+	line-height: 55px;
+}
+
+.service-list  {
+	list-style: none;
+}
+
+.service-item {
+	list-style: none;
+}
+
+.about-nerds b{
+	font-size: 45px;
+	line-height: 45px;
+
+	text-transform: none;
+}
+
+.about-nerds p{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+
+	text-transform: none;
+}
+
+.about-nerds h3{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+}
+
+.ners-services .list-item li{
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #283136;
+}
+	
+.nerds-services-list{
+	list-style: none;
+}
+
+.nerds-service-item{
+	line-height: 24px;
+	padding: 41px;
+}
+
+.stats-nerds th{
+	font-size: 45px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.stats-nerds tr td{
+	font-size:16px;
+	line-height:18px;
+}
+
+.partners-list{
+	list-style: none;
+}
+
+.partner-logo a{
+	color:#000000;
+}
+
+
+.partner-logo:hover,
+.partner-logo:focus{
+	opacity: 0.2;
+}
+
+
+.page-title{
+	font-size: 55px;
+	line-height: 55px;
+
+	text-transform: none;
+}
+
+.filter fieldset {
+	border: none;
+}
+
+.filter legend {
+	font-size: 18px;
+	line-height:30px;
+}
+
+.filters ul {
+	list-style: none;
+
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.catalog ul {
+	list-style: none;
+}
+
+.sort-filter li{
+	opacity:0.3;
+}
+
+.sort-filter li:hover,
+.sort-filter li:focus{
+	opacity: 0.6;
+}
+
+.sort-filter li:active{
+	opacity:1;
+}
+
+.hoverboard{
+	background-color: #eeeeee;
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.catalog-list p{
+	font-size: 16px;
+	line-height: 18px;
+	color:#666666;
+
+	text-transform: none;
+}
+
+.catalog-list{
+	list-style: none;
+}
+
+.pagination-list {
+	list-style: none;
+
+	
+}
+
+.pagination-item a {
+	color: #000000;
+
+	background-color: #eeeeee;
+
+	border: 2px solid #eeeeee;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus{
+	background-color: #dfdfdf;
+}
+}
+
+.pagination-item a:active {
+	background-color: #ffffff;
+}
+
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active{
+	color: #000000;
+
+	background-color: #ffffff;
+}
+
+.main-footer {
+	color: #000000;
+}
+
+.contacts {
+	color: #666666;
+}
+
+.contacts h5{
+	font-size: 18px;
+	line-height: 30px;
+
+	color:#000000;
+
+	text-transform: uppercase;
+}
+
+.footer-social{
+	text-align: left;
+}
+
+.footer-social ul {
+ 	list-style: none;
+}
+
+.social-button {
+ 	color: #000000;
+}
+.main-footer p{
+	font-size: 16px;
+	line-height: 22px;
+	color:#444444;
+	text-transform: none;
+}
+
+.main-footer b{
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.modal {
+	color: #000000;
+
+	background-color: #ffffff;
+}
+
+.modal h2{
+	font-size: 45px;
+	line-height: 45px;
+}
+
+.write-us-form-item{
+	font-size: 16px;
+	line-height: 18px;
+
+	text-transform: none;
+
+	margin-bottom: 12px;
+}
+
+.write-us-form input[type="text"]{
+	color:#000000;
+
+	border: 2px solid #d7dcde;
+}
+
+.write-us-form input[type="text"]:hover,
+.write-us-form input[type="text"]:focus{
+	border: 2px solid #b4b9bb;
+}
+
+.write-us-form input[type="text"]:active{
+	border: 2px solid #000000;
+}
+
+#write-us-form-text{
+	border: 2px solid #d7dcde;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

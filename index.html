@@ -3,6 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Дизайн-студия «Нёрдс»</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 		<header class="main-header">
@@ -22,30 +25,32 @@
 			</nav>	
 		</header>
 		<main class="container">
-			<h1 class="visually-hidden">Дизайн-студия «Нёрдс»</h1>
-			<section class="slide-features">
-				<h2 class="visually-hidden">Наши преимущества </h2>
-				<ul class="slide-features list">
-					<li class="slide-feature-item-current">
-						<h2>Долго, дорого, скрупулезно.</h2>
-						<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-						<a class="button" href="more-info-1.html">Узнать больше</a>
-						<img src="img/slide1.png" width="698" height="413" alt="Слайд 1">
-					</li>
-					<li class="slide-feature-item">
-						<h2>Любим математику как никто другой</h2>
-						<p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-						<a class="button" href="more-info-2.html">Узнать больше</a>
-						<img src="img/slide2.png" width="698" height="413" alt="Слайд 2">
-					</li>
-					<li class="slide-feature-item">
-						<h2>Только ночь, только хардкор</h2>
-						<p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-						<a class="button" href="#">Узнать больше</a>
-						<img src="img/slide3.png" width="698" height="413" alt="Слайд 3">
-					</li>
-				</ul>
-			</section>
+			<div class="index-columns">
+				<h1 class="visually-hidden">Дизайн-студия «Нёрдс»</h1>
+				<section class="slide-features">
+					<h2 class="visually-hidden">Наши преимущества </h2>
+					<ul class="slide-features-list">
+						<li class="slide-feature-item-current">
+							<h3>Долго, дорого,<br> скрупулезно.</h3>
+							<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+							<a class="button" href="more-info-1.html">Узнать больше</a>
+							<img src="img/slide1.png" width="698" height="413" alt="Слайд 1">
+						</li>
+						<li class="slide-feature-item">
+							<h3>Любим математику<br> как никто другой</h3>
+							<p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+							<a class="button" href="more-info-2.html">Узнать больше</a>
+							<img src="img/slide2.png" width="698" height="413" alt="Слайд 2">
+						</li>
+						<li class="slide-feature-item">
+							<h3>Только ночь,<br> только хардкор</h3>
+							<p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+							<a class="button" href="#">Узнать больше</a>
+							<img src="img/slide3.png" width="698" height="413" alt="Слайд 3">
+						</li>
+					</ul>
+				</section>
+			</div>
 			<section class="services">
 				<ul class="service-list">
 					<li class="service-item">
@@ -58,13 +63,13 @@
 						<img src="img/illustration-2.png" alt="Приложения">
 						<h3>Приложения</h3>
 						<p>Покорите топ-10 приложений в AppStore и Google Play</p>
-						<a class="button" href="#">Заказать</a>
+						<a class="app-button" href="#">Заказать</a>
 					</li>
 					<li class="service-item">
 						<img src="img/illustration-3.png" alt="Презентации">
 						<h3>Презентации</h3>
 						<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-						<a class="button" href="#">Заказать</a>
+						<a class="presentation-button" href="#">Заказать</a>
 					</li>
 				</ul>
 			</section>
@@ -129,7 +134,7 @@
 						</a>
 					</li>
 					<li class="partner-logo">
-						<a href="#"> 
+						<a class="partner-logo" href="#"> 
 							<h3 class="visually-hidden">Mishka</h3>
 							<p>
 								<img src="img/logo-4.png" alt="Mishka">
@@ -141,7 +146,7 @@
 		</main>
 		<footer class="main-footer">
 			<section class="contacts">
-				<h5>Nerds design studio</h5>
+				<h5>Nёrds design studio</h5>
 			<p>
 				191186, Санкт-Петербург,<br>
 				ул. Б. Конюшенная, д. 19/8
