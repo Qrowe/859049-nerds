@@ -816,6 +816,7 @@ body {
 
 .catalog-columns {
   display: flex;
+  margin-top: 60px;
   
 }
 
@@ -831,6 +832,11 @@ body {
 
 .filtering{
 	margin-right: 140px;
+}
+
+.filtering:first-of-type{
+	min-height: 132px;
+	margin-bottom: 55px;
 }
 
 .filtering ul{
@@ -862,6 +868,7 @@ body {
 
 .catalog{
 	width: 760px;
+	margin-left: 130px;
 }
 
 .catalog-list{
