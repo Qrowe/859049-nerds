@@ -522,7 +522,8 @@ body {
 }
 
 .main-header {
-	margin-bottom: 0;
+	margin: 0 auto 0 auto;
+	width: 1600px;
 }
 
 .main-header-logo{
@@ -586,7 +587,8 @@ body {
 
 
 .container{
-	margin-bottom: 120px;
+	width: 1600px;
+	margin: 0 auto 120px auto;
 }
 
 
@@ -801,8 +803,10 @@ body {
 }
 
 .container-inner-page{
-	margin: 0;
+	margin: 0 auto 120px auto;
 	padding: 0;
+	width: 1600px;
+
 }
 
 .container-inner-page h1{
@@ -812,6 +816,7 @@ body {
 	background-color: #eeeeee;
 	padding-top: 80px;
 	padding-bottom: 112px;
+
 }
 
 .catalog-columns {
@@ -918,9 +923,9 @@ body {
 
 
 .main-footer{
-	display
-	margin: 0;
+	margin: 0 auto 120px auto;
 	padding: 0;
+	width: 1600px;
 }
 
 .contacts{
@@ -990,8 +995,7 @@ body {
 .modal {
 	width: 960px;
 	text-align: left;
-	margin-left: 249px;
-	margin-right: 299px;
+	margin: 0 auto 120px auto;
 	padding-top: 68px;
 	padding-bottom: 78px;
 	padding-left: 97px;
