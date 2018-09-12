@@ -522,7 +522,7 @@ body {
 }
 	
 .header-wrapper{
-	width: 1600px;
+	width: 1160px;
 	margin: 0 auto;
 	background-color: #eeeeee;
 
@@ -605,7 +605,7 @@ body {
 }
 
 .content-wrapper{
-	width: 1600px;
+	width: 1160px;
 	margin: 0 auto 120px auto;
 }
 
@@ -617,7 +617,7 @@ body {
 	flex-direction: row;
 	width: 100%;
 	margin: 0;
-	padding: 0 130px;
+	padding: 0;
 	margin-bottom: 80px;
 }
 
@@ -717,7 +717,6 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 1100px;
-	margin-left: 130px;
 	margin-bottom: 157px;
 
 	list-style: none;
@@ -743,7 +742,6 @@ body {
 
 	margin: 0;
 	padding: 0;
-	margin-left: 130px;
 }
 
 .about-nerds {
@@ -805,7 +803,6 @@ body {
 .partners {
 	margin: 0;
 	padding: 0;
-	margin-left: 171px;
 
 }
 
@@ -899,6 +896,7 @@ body {
 	padding: 0;
  	margin: 0;
  	margin-bottom: 60px;
+ 	width: 760px;
 
  	list-style: none;
 }
