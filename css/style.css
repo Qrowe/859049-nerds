@@ -520,10 +520,18 @@ body{
 body {
 
 }
+	
+.header-wrapper{
+	width: 1600px;
+	margin: 0 auto;
+	background-color: #eeeeee;
+
+}
 
 .main-header {
-	margin: 0 auto 0 auto;
-	width: 1600px;
+	margin: 0 auto;
+	width: 100%;
+	background-color: #eeeeee;
 }
 
 .main-header-logo{
@@ -532,12 +540,12 @@ body {
 	height: 65px;
 	margin-left: 140px;
 
-	align-items: left;
+	
 
 }
 
 .main-navigation {
-	min-width: 1440px;
+	width: 100%;
 
 	display: flex;
 	flex-direction: row;
@@ -585,8 +593,18 @@ body {
 	list-style: none;
 }
 
+.container-wrapper{
+	
+	margin: 0 auto 120px auto;
+
+}
 
 .container{
+	width: 100%;
+	margin: 0 auto 120px auto;
+}
+
+.content-wrapper{
 	width: 1600px;
 	margin: 0 auto 120px auto;
 }
@@ -597,13 +615,13 @@ body {
 
 	display: flex;
 	flex-direction: row;
-
+	width: 100%;
 	margin: 0;
 	padding: 0 130px;
 	margin-bottom: 80px;
 }
 
-.slide-feautures{
+.slide-features{
 	display: flex;
 	flex-direction: column;
 }
@@ -678,9 +696,7 @@ body {
 }
 
 
-.slide-feature-item-wrapper .button {
 
-}
 
 
 
@@ -805,13 +821,14 @@ body {
 .container-inner-page{
 	margin: 0 auto 120px auto;
 	padding: 0;
-	width: 1600px;
+	width: 100%;
 
 }
 
-.container-inner-page h1{
+.page-title{
 	margin: 0;
 	padding: 0;
+	width: 100%;
 	text-align: center;
 	background-color: #eeeeee;
 	padding-top: 80px;
@@ -925,7 +942,7 @@ body {
 .main-footer{
 	margin: 0 auto 120px auto;
 	padding: 0;
-	width: 1600px;
+	width: 100%;
 }
 
 .contacts{
