@@ -538,7 +538,6 @@ body {
 	order:0;
 	width: 160px;
 	height: 65px;
-	margin-left: 140px;
 
 	
 
@@ -841,7 +840,6 @@ body {
 
 .filters{
 	width: 260px;
-	margin-left: 140px;
 }
 
 .filter fieldset{
