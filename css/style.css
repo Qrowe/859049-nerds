@@ -45,6 +45,7 @@ a {
 	text-transform: uppercase;
 	text-align: center;
 	text-decoration: none;
+	vertical-align: middle;
 
 	background-color: #fb565a;
 	border-radius: 3px;
@@ -1527,7 +1528,7 @@ margin-bottom: 20px;
 
 .catalog{
 	display: block;
-	width: 1160px;
+	
     padding-right: 20px;
     margin-right: auto;
     margin-left: auto;
