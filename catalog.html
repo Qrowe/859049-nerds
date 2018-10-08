@@ -22,7 +22,7 @@
 							<li><a href="contacts.htmls">Контакты</a></li>
 						</ul>
 						<span class="check-out-navigation">
-							<a href="check-out.html"><img src="img/cart-icon.svg" alt="Ваша корзина">Корзина</a>
+							<a href="check-out.html"><img src="img/cart-icon.svg" width="15" height="15" alt="Ваша корзина">Корзина</a>
 						</span>
 					</div>
 				</nav>
@@ -30,97 +30,90 @@
 		</header>
 
 		
-			<main class="container-inner-page">
+		<main class="container-inner-page">
 
-				<h1 class="page-title">Магазин готовых шаблонов</h1>
-				<div class="content-inner-page-wrapper">
-					<div class="catalog-columns">
-
-						<section class="filters">
-							<h2 class="visually-hidden">Фильтры товаров</h2>
-							<form class="filter" method="get" action="https://echo.htmlacademy.ru" oninput="min-price.value=price.value">
-								<fieldset class="filtering"><legend>Стоимость:</legend>
-									<div class="range-filter">
-										<div class="range-controls">
-											<div class="scale">
-												<div class="bar"></div>
-											</div>
-											<div class="toggle toggle-min"></div>
-											<div class="toggle toggle-max"></div>
+			<h1 class="page-title">Магазин готовых шаблонов</h1>
+			<div class="content-inner-page-wrapper">
+				<div class="catalog-columns">
+					<section class="filters">
+						<h2 class="visually-hidden">Фильтры товаров</h2>
+						<form class="filter" method="get" action="https://echo.htmlacademy.ru" oninput="min-price.value=price.value">
+							<fieldset class="filtering"><legend>Стоимость:</legend>
+								<div class="range-filter">
+									<div class="range-controls">
+										<div class="scale">
+											<div class="bar"></div>
 										</div>
-										<div class="price-controls">
-											<label class="min-price">от <input name="min-price" type="text" value="0"></label>
-											<label class="max-price">до <input name="min-price" type="text" value="15000"></label>
-										</div>
+										<div class="toggle toggle-min"></div>
+										<div class="toggle toggle-max"></div>
 									</div>
-								</fieldset>
-
-
-
-								
-
-								<fieldset class="grid">
-									<legend>Сетка:</legend>
-									<ul class="filter-list reset-list">
-										<li class="filter-option">
-											<input class="filter-input" type="radio" name="grid" value="adaptive" id="filter-adaptive">
-											<label class="filter-label" for="filter-adaptive">Адаптивная</label>
-										</li>
-										<li class="filter-option">
-											<input class="filter-input" type="radio" name="grid" value="fixed" id="filter-fixed">
-											<label class="filter-label" for="filter-fixed">Фиксированная</label>
-										</li>
-										<li class="filter-option">
-											<input class="filter-input" type="radio" name="grid" value="rubber" id="filter-rubber">
-											<label class="filter-label" for="filter-rubber">Резиновая</label>
-										</li>
-									</ul>
-								</fieldset>
-								<fieldset class="particulars">
-									<legend class="uppercase">Особенности:</legend>
-									<ul class="particulars-list reset-list">
-                  						<li class="particulars-option">
-                    						<input class="filter-input" type="checkbox" name="slider" id="filter-slider" checked="">
-                    						<label class="filter-label" for="filter-slider">Слайдер</label>
-                  						</li>
-                  						<li class="particulars-option">
-                   							<input class="filter-input" type="checkbox" name="advantage" id="filter-advantage">
-                    						<label class="filter-label" for="filter-advantage">Блок преимуществ</label>
-                  						</li>
-                  						<li class="particulars-option">
-		                    				<input class="filter-input" type="checkbox" name="news" id="filter-news" checked="">
-		                    				<label class="filter-label" for="filter-news">Новости</label>
-                  						</li>
-                  						<li class="particulars-option">
-		                    				<input class="filter-input" type="checkbox" name="gallery" id="filter-gallery">
-		                    				<label class="filter-label" for="filter-gallery">Галерея</label>
-                  						</li>
-                  						<li class="particulars-option">
-			                    			<input class="filter-input-checkbox" type="checkbox" name="basket" id="filter-basket">
-			                    			<label class="filter-label" for="filter-basket">Корзина</label>
-                  						</li>
-                					</ul>
-								</fieldset>
-						
-						<button class="button filter-button" type="submit" >Показать</button>
+									<div class="price-controls">
+										<label class="min-price">от <input name="min-price" type="text" value="0"></label>
+										<label class="max-price">до <input name="min-price" type="text" value="15000"></label>
+									</div>
+								</div>
+							</fieldset>					
+							<fieldset class="grid">
+								<legend>Сетка:</legend>
+								<ul class="filter-list reset-list">
+									<li class="filter-option">
+										<input class="filter-input" type="radio" name="grid" value="adaptive" id="filter-adaptive">
+										<label class="filter-label" for="filter-adaptive">Адаптивная</label>
+									</li>
+									<li class="filter-option">
+										<input class="filter-input" type="radio" name="grid" value="fixed" id="filter-fixed">
+										<label class="filter-label" for="filter-fixed">Фиксированная</label>
+									</li>
+									<li class="filter-option">
+										<input class="filter-input" type="radio" name="grid" value="rubber" id="filter-rubber">
+										<label class="filter-label" for="filter-rubber">Резиновая</label>
+									</li>
+								</ul>
+							</fieldset>
+							<fieldset class="particulars">
+								<legend class="uppercase">Особенности:</legend>
+								<ul class="particulars-list reset-list">
+                  					<li class="particulars-option">
+                    					<input class="filter-input" type="checkbox" name="slider" id="filter-slider" checked="">
+                    					<label class="filter-label" for="filter-slider">Слайдер</label>
+                  					</li>
+                  					<li class="particulars-option">
+                   						<input class="filter-input" type="checkbox" name="advantage" id="filter-advantage">
+                    					<label class="filter-label" for="filter-advantage">Блок преимуществ</label>
+                  					</li>
+                  					<li class="particulars-option">
+		                    			<input class="filter-input" type="checkbox" name="news" id="filter-news" checked="">
+		                    			<label class="filter-label" for="filter-news">Новости</label>
+                  					</li>
+                  					<li class="particulars-option">
+		                    			<input class="filter-input" type="checkbox" name="gallery" id="filter-gallery">
+		                    			<label class="filter-label" for="filter-gallery">Галерея</label>
+                  					</li>
+                  					<li class="particulars-option">
+			                   			<input class="filter-input-checkbox" type="checkbox" name="basket" id="filter-basket">
+			                   			<label class="filter-label" for="filter-basket">Корзина</label>
+                  					</li>
+                				</ul>
+							</fieldset>
+							<button class="button filter-button" type="submit">Показать</button>
 						</form>
-						</section>
+					</section>
 
-						<div class="catalog-shop-wrapper">
+					<div class="catalog-shop-wrapper">
 						<section class="shop-sort">
 							<h2 class="visually-hidden">Список готовых шаблонов</h2>
 							<b>Сортировать:</b>
-								<ul class="reset-list">
-									<li>
-										<a class="filter-classify" href="#" aria-label="Классифицировать по цене">По цене</a>
-									</li>
-									<li>
-										<a class="filter-classify" href="#" aria-label="Классифицировать по типу">По типу</a>						
-									</li>
-									<li>
-										<a class="filter-classify" href="#" aria-label="Классифицировать по названию">По названию</a>
-									</li>
-								</ul>
+							<ul class="reset-list">
+								<li>
+									<a class="filter-classify" href="#" aria-label="Классифицировать по цене">По цене</a>
+								</li>
+								<li>
+									<a class="filter-classify" href="#" aria-label="Классифицировать по типу">По типу</a>						
+								</li>
+								<li>
+									<a class="filter-classify" href="#" aria-label="Классифицировать по названию">По названию</a>
+								</li>
+							</ul>
 							<div class="shop-sort-nav">
 								<a class="sort-button up-button" href="#">
 									<img src="img/icon-down-dir.svg" alt="" width="11" height="10">
@@ -134,7 +127,6 @@
 						</section>
 
 						<section class="catalog">
-						
 							<ul class="catalog-list">
 								<li class="catalog-item">
 									<p>
@@ -215,7 +207,6 @@
 									</div>
 								</li>
 							</ul>
-
 							<ul class="pagination-list">
 				          		<li class="pagination-item current">
 				          			<a href="#" aria-label="Перейти на первую страницу">1</a>
@@ -232,9 +223,9 @@
 				        	</ul>
 				        </section>
 				    </div>
-				    </div>
 				</div>
-			</main>
+			</div>
+		</main>
 		
 		<footer class="main-footer">
 			<div class="map-wrapper">
@@ -249,12 +240,11 @@
 						<p>
 							тел. +7(812)275-75-75
 						</p>
-						<button class="button contact-button contact-button-form" type="button" aria-label="Напишите нам">Напишите нам</button>
+						<button class="button contact-button contact-button-form" type="button" aria-label="Напишите нам" href="#">Напишите нам</button>
 					</section>
 				</div>
 			</div>
-
-				<div class="footer-wrapper">
+			<div class="footer-wrapper">
 				<div class=social-wrapper>
 					<div class="footer-social">
 						<ul>
@@ -264,15 +254,14 @@
 						</ul>
 					</div>
 					<div class="footer-offer">
-					<b>Давайте дружить, это выгодно!</b>
-					<p>Скидка 10% для друзей из социальных сетей.
-					</p>
+						<b>Давайте дружить, это выгодно!</b>
+						<p>Скидка 10% для друзей из социальных сетей.
+						</p>
 					</div>
 				</div>
 			</div>
 		</footer>
 		
-
 		<div class="container-modal">
 			<section class="modal modal-login">
 				<h2>Напишите нам</h2>
@@ -291,9 +280,7 @@
 						<label for="write-us-form-text">Текст письма:</label>
 						<textarea name="text" id="write-us-form-text" rows="3"  aria-label="Введите текст письма">В свободной форме
 						</textarea>
-					</p>
-					
-					
+					</p>	
 					<button class="submit-button" type="submit" aria-label="Отправить сообщение">Отправить</button>	
 				</form>
 				<button class="modal-close" type="button"><span class="visually-hidden">Закрыть</span></button>
