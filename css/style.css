@@ -755,6 +755,7 @@ body {
 
 .site-navigation-catalog li:not(:first-child) {
   margin-left: 47px;
+  padding-bottom: 3px;
 }
 
 .site-navigation-catalog li:nth-child(4) {
@@ -1331,14 +1332,14 @@ body {
   text-align: center;
   background-color: #eeeeee;
   padding-top: 77px;
-  padding-bottom: 109px;
+  padding-bottom: 106px;
 }
 
 .catalog-columns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 57px;
+  margin-top: 59px;
 }
 
 .filters {
@@ -1359,7 +1360,7 @@ body {
 
 .range-filter {
   width: 260px;
-  margin-top: 49px;
+  margin-top: 51px;
 }
 
 .range-controls {
@@ -1447,7 +1448,7 @@ body {
 
 .filtering:first-of-type {
   min-height: 132px;
-  margin-bottom: 59px;
+  margin-bottom: 58px;
 }
 
 .filtering ul {
@@ -1520,7 +1521,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
-  padding-left: 37px;
+  padding-left: 36px;
   background-repeat: no-repeat;
   color: #61686c;
 }
@@ -1663,9 +1664,15 @@ body {
   line-height: 1.25;
 }
 
+.shop-sort li:first-child a{
+  color: black;
+  opacity: 1;
+}
+
 .shop-sort a {
   color: #000000;
   opacity: 0.3;
+  font-weight: 400;
 }
 
 .shop-sort a:hover {
@@ -1832,16 +1839,16 @@ body {
   padding-right: 74px;
 }
 
+.pagination-item:first-child a{
+  background-color: white;
+}
+
 .pagination-list li>.current{
   background-color:white;
 }
 
 .pagination-list li {
   margin-right: -4px;
-}
-
-.pagination-list .current{
-  background-color: white;
 }
 
 .map-wrapper {
@@ -2024,7 +2031,7 @@ body {
   clear: both;
   width: 1160px;
 
-  margin-top: 29px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2102,7 +2109,7 @@ body {
 .footer-offer {
   display: block;
   width: 760px;
-  margin-left: 140px;
+  margin-left: 141px;
 }
 
 .social-wrapper b {
