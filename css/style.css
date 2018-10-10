@@ -1330,7 +1330,7 @@ body {
   width: 100%;
   text-align: center;
   background-color: #eeeeee;
-  padding-top: 80px;
+  padding-top: 77px;
   padding-bottom: 109px;
 }
 
@@ -1338,7 +1338,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 55px;
+  margin-top: 57px;
 }
 
 .filters {
@@ -1469,6 +1469,7 @@ body {
 }
 
 .grid {
+  margin-left: 1px;
   margin-bottom: 19px;
   padding-left: 0;
 }
@@ -1567,6 +1568,7 @@ body {
 
 .particulars-list {
   margin-top: 5px;
+  margin-left: -3px;
   padding: 0;
 }
 
@@ -1610,7 +1612,7 @@ body {
   flex-direction: column;
   width: 760px;
 
-  margin-left: 143px;
+  margin-left: 141px;
 }
 
 .sort-filter {
