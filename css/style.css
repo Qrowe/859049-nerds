@@ -61,6 +61,7 @@ a {
   box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 
+
 .button-order {
   display: block;
   width: 160px;
@@ -104,6 +105,21 @@ a {
   border: none;
   border-radius: 1px;
 }
+
+.filter-button:hover{
+  background-color: #dfdfdf;
+}
+
+.filter-button:active,
+.filter-button:focus{
+  background-color: #d5d5d5;
+  color: #959595;
+}
+
+.show-results {
+  width: 262px;
+}
+
 
 .app-button-order {
   display: block;
@@ -192,19 +208,53 @@ a {
   list-style: none;
 }
 
+.site-navigation-catalog {
+  list-style: none;
+}
+
 .site-navigation a,
 .check-out-navigation a {
   color: #000000;
 }
 
-.site-navigation a:hover,
-.site-navigation a:focus,
-.check-out-navigation a:hover,
-.check-out-navigation a:focus {
+.site-navigation-catalog a {
+  color: #000000;
+}
+
+.site-navigation-catalog a:hover{
   color: #fb565a;
 }
 
+.site-navigation-catalog a:focus{
+  color: #000000;
+  opacity: 0.3;
+}
+
+.site-navigation-catalog a:active{
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.check-out-navigation a:hover{
+  color: #fb565a;
+}
+
+.site-navigation a:focus,
+.check-out-navigation a:focus{
+  color: #000000;
+  opacity: 0.3;
+}
+
+.site-navigation a:active,
+.check-out-navigation a:active{
+  color: #000000;
+}
+
 .site-navigation .current {
+  border-bottom: 2px solid #fb565a;
+}
+
+.site-navigation-catalog .current {
   border-bottom: 2px solid #fb565a;
 }
 
@@ -368,7 +418,17 @@ a {
   opacity: 1;
 }
 
+.partner-slash-Academy:hover,
+.partner-slash-Academy:focus{
+  opacity: 0.2;
+}
+
 .partner-logo:active {
+  opacity: 0.2;
+}
+
+.partner-logo::after:hover,
+.partner-logo::after:focus{
   opacity: 0.2;
 }
 
@@ -595,9 +655,7 @@ a {
   border: 2px solid #000000;
 }
 
-#write-us-form-text {
-  border: 2px solid #d7dcde;
-}
+
 
 /*сеточные стили*/
 
@@ -690,7 +748,15 @@ body {
 }
 
 .site-navigation li:nth-child(4) {
-  margin-left: 42px;
+  margin-left: 43px;
+}
+
+.site-navigation-catalog li:not(:first-child) {
+  margin-left: 47px;
+}
+
+.site-navigation-catalog li:nth-child(4) {
+  margin-left: 43px;
 }
 
 .check-out-navigation {
@@ -782,7 +848,7 @@ body {
   z-index: 100;
 
   width: 160px;
-  height: 18px;
+  height: 22px;
 
   text-align: center;
   font-size: 0;
@@ -795,6 +861,7 @@ body {
   position: relative;
 
   display: inline-block;
+  vertical-align: top;
   width: 18px;
   height: 18px;
   padding: 8px;
@@ -951,10 +1018,10 @@ body {
 .services {
   display: block;
   height: auto;
-  padding-bottom: 84px;
+  padding-bottom: 79px;
   border-bottom: 2px solid #eeeeee;
   margin-left: 2px;
-  margin-bottom: 55px;
+  margin-bottom: 57px;
 }
 
 .service-list {
@@ -990,7 +1057,7 @@ body {
 }
 
 .service-item p {
-  margin-bottom: 30px;
+  margin-bottom: 31px;
 
   max-width: 270px;
 }
@@ -1036,11 +1103,10 @@ body {
 }
 
 .about-nerds h3 {
-  display: inline-block;
   margin: 0;
-  margin-bottom: 7px;
+  margin-bottom: 16px;
   padding-bottom: 8px;
-  margin-left: -3px;
+  margin-left: 1px;
 }
 
 .nerds-services-list {
@@ -1050,7 +1116,7 @@ body {
 
 .nerds-services-list li {
   margin-bottom: 20px;
-  margin-left: -6px;
+  margin-left: -3px;
 }
 
 .nerds-services-list li:first-child{
@@ -1086,7 +1152,7 @@ body {
 
 .stats img {
   margin-top: -18px;
-  margin-bottom: 31px;
+  margin-bottom: 29px;
   margin-left: 23px;
 }
 
@@ -1106,6 +1172,7 @@ body {
 
 .stats-nerds caption {
   margin-left: 20px;
+  margin-bottom: 2px;
 
   caption-side: top;
   min-height: 53px;
@@ -1120,6 +1187,11 @@ body {
   margin-bottom: 40px;
 }
 
+.table-container{
+  margin-top: -2px;
+}
+
+
 .stats-table td {
   font-size: 45px;
   padding-right: 21px;
@@ -1130,7 +1202,10 @@ body {
   text-transform: none;
   font-weight: bold;
   padding-top: 9px;
+  line-height: 20px
 }
+
+
 
 .percentage {
   vertical-align: super;
@@ -1166,9 +1241,9 @@ body {
 }
 
 .partners-list li:first-child {
-  margin-left: 15px;
+  margin-left: 16px;
   margin-right: 95px;
-  margin-top: 3px;
+  margin-top: -1px;
 }
 
 .partners-list li:nth-child(2){
@@ -1180,7 +1255,11 @@ body {
   margin-top: -7px;
 }
 
-.HTML-Academy::after {
+.partners-list li:nth-child(4) {
+  margin-top: -7px;
+}
+
+.partner-slash-Academy {
   content: '';
   display: block;
   position: absolute;
@@ -1194,7 +1273,11 @@ body {
   background-color: gray;
 }
 
-.Borodinski::after {
+.partner-slash-Academy:hover{
+  
+}
+
+.partner-slash-Borodinski {
   content: '';
   display: block;
   position: absolute;
@@ -1209,7 +1292,7 @@ body {
   opacity: 1;
 }
 
-.Pink::after {
+.partner-slash-Pink {
   content: '';
   display: block;
   position: absolute;
@@ -1246,7 +1329,7 @@ body {
   text-align: center;
   background-color: #eeeeee;
   padding-top: 80px;
-  padding-bottom: 112px;
+  padding-bottom: 109px;
 }
 
 .catalog-columns {
@@ -1269,6 +1352,7 @@ body {
 
 .filter legend {
   margin: 0;
+  margin-bottom: -1px;
 }
 
 .range-filter {
@@ -1279,7 +1363,7 @@ body {
 .range-controls {
   position: relative;
   height: 41px;
-  margin-bottom: 15px;
+  margin-bottom: 19px;
   padding-top: 39px;
   padding-right: 20px;
   padding-left: 20px;
@@ -1333,6 +1417,7 @@ body {
 
 .price-controls label {
   display: inline-block;
+  vertical-align: top;
   width: 50%;
 
   font-size: 16px;
@@ -1360,7 +1445,7 @@ body {
 
 .filtering:first-of-type {
   min-height: 132px;
-  margin-bottom: 55px;
+  margin-bottom: 59px;
 }
 
 .filtering ul {
@@ -1373,7 +1458,7 @@ body {
 .filter-option {
   margin: 0;
   padding: 0;
-  padding-bottom: 15px;
+  padding-bottom: 11px;
   margin-bottom: 8px;
 }
 
@@ -1382,7 +1467,7 @@ body {
 }
 
 .grid {
-  margin-bottom: 15px;
+  margin-bottom: 19px;
   padding-left: 0;
 }
 
@@ -1393,7 +1478,7 @@ body {
 
 .particulars {
   padding-left: 0;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .filter-option label {
@@ -1409,6 +1494,7 @@ body {
 .filter-option-grid label::before {
   content: '';
   display: inline-block;
+  vertical-align: top;
   position: absolute;
   left: 0;
   vertical-align: middle;
@@ -1440,6 +1526,7 @@ body {
 .filter input[type='checkbox'] + label::before {
   content: '';
   display: inline-block;
+  vertical-align: top;
   position: absolute;
   left: 0;
   vertical-align: middle;
@@ -1540,14 +1627,16 @@ body {
 
 .shop-sort {
   margin-top: -19px;
-  margin-bottom: 74px;
+  margin-bottom: 77px;
   height: 16px;
 }
 
 .shop-sort b {
   display: inline-block;
+  vertical-align: middle;
   margin-top: 0;
   margin-right: 235px;
+  margin-left: -1px;
 
   min-width: 160px;
   font-size: 18px;
@@ -1557,13 +1646,15 @@ body {
 
 .shop-sort ul {
   display: inline-block;
+  vertical-align: middle;
   padding: 0;
-  margin-right: 12px;
+  margin-right: 18px;
 }
 
 .shop-sort li {
   display: inline-block;
-  margin-right: 27px;
+  vertical-align: middle;
+  margin-right: 22px;
   font-size: 14px;
   line-height: 1.25;
 }
@@ -1581,8 +1672,15 @@ body {
   opacity: 1;
 }
 
-.shop-sort-nav {
+.shop-sort-nav-up {
   display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.shop-sort-nav-down {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .catalog {
@@ -1602,7 +1700,7 @@ body {
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   width: 800px;
 
   list-style: none;
@@ -1710,6 +1808,7 @@ body {
 
 .pagination-list a {
   display: inline-block;
+  vertical-align: middle;
   text-align: center;
   width: 45px;
   height: 45px;
@@ -1729,8 +1828,12 @@ body {
   padding-right: 74px;
 }
 
+.pagination-list li>.current{
+  background-color:white;
+}
+
 .pagination-list li {
-  margin-right: 11px;
+  margin-right: -4px;
 }
 
 .map-wrapper {
@@ -1774,7 +1877,7 @@ body {
   background-color: #ffffff;
   position: absolute;
   top: 14px;
-  left: 94px;
+  left: 125px;
 
   padding-left: 50px;
   padding-right: 50px;
@@ -1881,6 +1984,7 @@ body {
   width: 100%;
   height: 418px;
   top: -40px;
+  left: -13px;
   display: block;
   background-image: url('../img/map-layer.png');
   background-position: 50%;
@@ -1999,7 +2103,7 @@ body {
 
 .social-wrapper p {
   margin: 0;
-  margin-top: 8px;
+  margin-top: 13px;
   width: 760px;
 }
 
@@ -2139,6 +2243,8 @@ body {
 
   font-size: 16px;
   font-weight: normal;
+
+  border: 2px solid #d7dcde;
 }
 
 .write-us-form input[type='text']:focus {
