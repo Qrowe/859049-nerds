@@ -611,7 +611,8 @@ a {
 
 .phone {
   margin-bottom: 34px;
-  margin-top:-1px;
+  margin-top:-2px;
+  margin-left: 3px;
 }
 
 .modal {
